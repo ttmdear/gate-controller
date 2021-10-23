@@ -1,0 +1,7 @@
+/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/Arduino_Core.dir
+/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/upload.dir
+/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/SPI.dir
+/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/VirtualWire.dir
+/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir
+/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/edit_cache.dir

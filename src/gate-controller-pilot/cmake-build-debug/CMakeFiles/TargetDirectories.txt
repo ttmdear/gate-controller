@@ -1,0 +1,7 @@
+/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/Arduino_Core.dir
+/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/upload.dir
+/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/SPI.dir
+/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/VirtualWire.dir
+/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/gate_controller_pilot.dir
+/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/edit_cache.dir

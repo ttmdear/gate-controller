@@ -1,0 +1,28 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/src/main.cpp" "/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/gate_controller_pilot.dir/src/main.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"
+  "/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"
+  "/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"
+  "../libraries/VirtualWire"
+  "../include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/Arduino_Core.dir/DependInfo.cmake"
+  "/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/SPI.dir/DependInfo.cmake"
+  "/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/CMakeFiles/VirtualWire.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

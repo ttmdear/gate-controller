@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gate_controller_pilot"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\arduino-cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Arduino_Core">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Arduino_Core/fast">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload">
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPI">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/libSPI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 SPI"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SPI/fast">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/libSPI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 SPI/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualWire">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/libVirtualWire.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualWire"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirtualWire/fast">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/libVirtualWire.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualWire/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gate_controller_pilot">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/gate_controller_pilot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_pilot"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gate_controller_pilot/fast">
+				<Option output="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/gate_controller_pilot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire"/>
+					<Add directory="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_pilot/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire/VirtualWire.cpp">
+			<Option target="VirtualWire"/>
+		</Unit>
+		<Unit filename="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/libraries/VirtualWire/VirtualWire.h">
+			<Option target="VirtualWire"/>
+		</Unit>
+		<Unit filename="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/src/main.cpp">
+			<Option target="gate_controller_pilot"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/CDC.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/IPAddress.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Print.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Print.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Stream.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Stream.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Tone.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/USBCore.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WMath.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WString.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WString.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/abi.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/hooks.c">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/main.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/new.cpp">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/new.h">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring.c">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+			<Option target="Arduino_Core"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src/SPI.cpp">
+			<Option target="SPI"/>
+		</Unit>
+		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src/SPI.h">
+			<Option target="SPI"/>
+		</Unit>
+		<Unit filename="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/thinkpad/projects/gate-controller/src/gate-controller-pilot/arduino-cmake/arduino.cmake">
+			<Option virtualFolder="CMake Files\arduino-cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

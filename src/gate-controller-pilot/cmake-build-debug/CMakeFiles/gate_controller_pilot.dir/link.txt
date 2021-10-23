@@ -1,0 +1,1 @@
+/opt/arduino-1.8.9/hardware/tools/avr/bin/avr-gcc -Wall -Wextra -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=atmega328p CMakeFiles/gate_controller_pilot.dir/src/main.cpp.o -o gate_controller_pilot libArduino_Core.a libSPI.a libVirtualWire.a 
