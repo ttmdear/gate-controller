@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gate_controller_board.dir/src/Debug.cpp.o"
-  "CMakeFiles/gate_controller_board.dir/src/GateController.cpp.o"
-  "CMakeFiles/gate_controller_board.dir/src/RemoteController.cpp.o"
-  "CMakeFiles/gate_controller_board.dir/src/Test.cpp.o"
+  "CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o"
   "CMakeFiles/gate_controller_board.dir/src/main.cpp.o"
   "gate_controller_board"
   "gate_controller_board.pdb"

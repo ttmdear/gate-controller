@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/gate_controller_rc_cpp.dir/src/main.cpp.o -o gate_controller_rc_cpp 

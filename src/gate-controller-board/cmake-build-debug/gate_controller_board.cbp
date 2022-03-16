@@ -8,409 +8,258 @@
 		<Option virtualFolders="CMake Files\;CMake Files\arduino-cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Arduino_Core">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Arduino_Core/fast">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="upload">
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SPI">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libSPI.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+			<Target title="upload">
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Arduino_Core">
+				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 SPI"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SPI/fast">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libSPI.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+			<Target title="Arduino_Core/fast">
+				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 SPI/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="VirtualWire">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libVirtualWire.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualWire"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="VirtualWire/fast">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libVirtualWire.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualWire/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gate_controller_board">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./include"/>
+					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./lib/VirtualWire"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gate_controller_board/fast">
-				<Option output="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire"/>
-					<Add directory="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
+					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
+					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./include"/>
+					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./lib/VirtualWire"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/thinkpad/projects/2008\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include/GateController.h">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/lib/VirtualWire/VirtualWire.cpp">
 			<Option target="gate_controller_board"/>
 		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include/Pins.h">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/lib/VirtualWire/VirtualWire.h">
 			<Option target="gate_controller_board"/>
 		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include/RemoteController.h">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp">
 			<Option target="gate_controller_board"/>
 		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/include/Test.h">
-			<Option target="gate_controller_board"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire/VirtualWire.cpp">
-			<Option target="VirtualWire"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/libraries/VirtualWire/VirtualWire.h">
-			<Option target="VirtualWire"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/src/Debug.cpp">
-			<Option target="gate_controller_board"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/src/GateController.cpp">
-			<Option target="gate_controller_board"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/src/RemoteController.cpp">
-			<Option target="gate_controller_board"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/src/Test.cpp">
-			<Option target="gate_controller_board"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/src/main.cpp">
-			<Option target="gate_controller_board"/>
-		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/CDC.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/IPAddress.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Print.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Print.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Stream.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Stream.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/Tone.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/USBCore.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WMath.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WString.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/WString.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/abi.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/hooks.c">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/main.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/new.cpp">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/new.h">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.h">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring.c">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src/SPI.cpp">
-			<Option target="SPI"/>
+		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/opt/arduino-1.8.9/hardware/arduino/avr/libraries/SPI/src/SPI.h">
-			<Option target="SPI"/>
-		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/CMakeLists.txt">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/thinkpad/projects/2008 - Sterownik do bramy/src/gate-controller-board/arduino-cmake/arduino.cmake">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/arduino-cmake/arduino.cmake">
 			<Option virtualFolder="CMake Files\arduino-cmake\"/>
 		</Unit>
 	</Project>

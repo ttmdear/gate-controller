@@ -1,0 +1,4 @@
+/opt/CLion-2021.2.2/clion-2021.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-rc-cpp"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-rc-cpp/cmake-build-debug

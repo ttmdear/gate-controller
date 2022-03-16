@@ -1,0 +1,3 @@
+/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-rc-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-rc-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-rc-cpp/cmake-build-debug/CMakeFiles/gate_controller_rc_cpp.dir
