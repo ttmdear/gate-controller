@@ -1,142 +1,154 @@
 #include <Arduino.h>
 
-void setup() {
+#define ledPin 13
 
+int timer1_counter;
+unsigned long t = millis();
+
+#define PIN_RF 11
+
+class Receiver {
+private:
+    int sample = 0;
+    int bufferSize = 150;
+    int buffer[150];
+    int p;
+    bool message = false;
+    unsigned long sampleAt;
+public:
+    void loop();
+
+    void reset();
+
+    void init();
+
+    void dump();
+
+    bool isMessage();
+};
+
+void Receiver::loop() {
+    if (message) return;
+
+    int s = digitalRead(PIN_RF);
+
+    if (s == sample) {
+        return;
+    }
+
+    unsigned long time = micros();
+    unsigned long delta = time - sampleAt;
+
+    sample = s;
+    sampleAt = time;
+
+    if (delta < 350) {
+        reset();
+        return;
+    }
+
+    int l = delta / 350;
+
+    Serial.print("delta -> ");
+    Serial.println(delta);
+
+    if (l == 1) {
+        buffer[++p] = s;
+    } else if (l == 2) {
+        buffer[++p] = s;
+        buffer[++p] = s;
+    } else if (l == 3) {
+        buffer[++p] = s;
+        buffer[++p] = s;
+        buffer[++p] = s;
+    } else if (l == 4) {
+        buffer[++p] = s;
+        buffer[++p] = s;
+        buffer[++p] = s;
+        buffer[++p] = s;
+    }
+
+    if (p > 115) {
+        message = true;
+    }
+}
+
+void Receiver::reset() {
+    sample = digitalRead(PIN_RF);
+    sampleAt = micros();
+    message = false;
+
+    p = -1;
+
+    for (int i = 0; i < bufferSize; i++) {
+        buffer[i] = 0;
+    }
+}
+
+void Receiver::init() {
+    reset();
+}
+
+void Receiver::dump() {
+    for (int i = 0; i < 100; i++) {
+        if (buffer[i]) {
+            Serial.print("1");
+        } else {
+            Serial.print("0");
+        }
+    }
+
+    Serial.println();
+    reset();
+}
+
+bool Receiver::isMessage() {
+    return message;
+}
+
+
+Receiver receiver;
+
+void setup() {
+    Serial.begin(9600);    // Debugging only
+    Serial.println("setup");
+
+    pinMode(PIN_RF, INPUT);
+
+    receiver.init();
+
+    // // initialize timer1
+    // noInterrupts(); // disable all interrupts
+
+    // TCCR1A = 0;
+    // TCCR1B = 0;
+
+    // timer1_counter = 65533; // preload timer 65536-16MHz/256/2Hz
+
+    // TCNT1 = timer1_counter; // preload timer
+    // TCCR1B |= (1 << CS12); // 256 prescaler
+    // TIMSK1 |= (1 << TOIE1); // enable timer overflow interrupt
+    // interrupts(); // enable all interrupts
 }
 
 void loop() {
-
+    receiver.loop();
+    if (receiver.isMessage()) {
+        receiver.dump();
+    }
 }
 
-// // #include <VirtualWire.h>
+// ISR(TIMER1_OVF_vect) {
+//     TCNT1 = timer1_counter; // preload timer
 //
-// #define PIN_RF 11
+//     // unsigned long a = millis();
+//     // unsigned long d = a - t;
+//     // Serial.println(d, DEC);
+//     // t = a;
 //
-// class Receiver {
-// private:
-//     int sample = false;
-//     int bufferSize = 150;
-//     int buffer[150];
-//     int p;
-//     bool message = false;
-//     uint64_t sampleAt;
-// public:
-//     void loop();
-//     void reset();
-//     void init();
-//
-//     void fillBuffer(int times, int value);
-//     void dump();
-//     bool isMessage();
-// };
-//
-// void Receiver::loop() {
-//     if (message) return;
-//
-//     int s = digitalRead(PIN_RF);
-//
-//     if (s == sample) {
-//         return;
-//     }
-//
-//     uint64_t time = micros();
-//     uint64_t delta = time - sampleAt;
-//
-//     sample = s;
-//     sampleAt = time;
-//
-//     if (delta < 350) {
-//         reset();
-//         return;
-//     }
-//
-//     int l = delta / 350;
-//
-//     // Serial.print("delta");
-//     // Serial.println(delta);
-//
-//     if (l == 1) {
-//         buffer[++p] = s;
-//     } else if (l == 2) {
-//         buffer[++p] = s;
-//         buffer[++p] = s;
-//     } else if (l == 3) {
-//         buffer[++p] = s;
-//         buffer[++p] = s;
-//         buffer[++p] = s;
-//     } else if (l == 4) {
-//         buffer[++p] = s;
-//         buffer[++p] = s;
-//         buffer[++p] = s;
-//         buffer[++p] = s;
-//     }
-//
-//     if (p > 115) {
-//         message = true;
-//     }
-// }
-//
-// void Receiver::reset() {
-//     uint64_t sampleAt;
-//     sample = digitalRead(PIN_RF);
-//     sampleAt = micros();
-//     message = false;
-//
-//     p = -1;
-//
-//     for(int i = 0; i < bufferSize; i++) {
-//         buffer[i] = 0;
-//     }
-// }
-//
-// void Receiver::init() {
-//     reset();
-// }
-//
-// void Receiver::fillBuffer(int times, int value) {
-//     for(int i = 0; i < times; i++) {
-//         buffer[++p] = value;
-//     }
-//
-//     if (p > 100) {
-//         message = true;
-//     }
-// }
-//
-// void Receiver::dump() {
-//     for(int i = 0; i < 100; i++) {
-//         if (buffer[i]) {
-//             Serial.print("1");
-//         } else {
-//             Serial.print("0");
-//         }
-//     }
-//
-//     Serial.println();
-//     reset();
-// }
-//
-// bool Receiver::isMessage() {
-//     return message;
-// }
-//
-//
-// Receiver receiver;
-//
-// void setup() {
-//     Serial.begin(9600);    // Debugging only
-//     Serial.println("setup");
-//     receiver.init();
-// }
-//
-// void loop() {
 //     receiver.loop();
-//
-//     if (receiver.isMessage()) {
-//         receiver.dump();
-//     }
 // }
-//
+
 // // // Pins
 // // #define PIN_CLOSE 2
 // // #define PIN_OPEN 3
