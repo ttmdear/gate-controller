@@ -14,7 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4fd49d8-3a0f-4c0c-af6c-72ba01f1eca1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../kicad/gate-controller" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/gate-controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/gate-controller" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arduino-cmake" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arduino-cmake/arduino.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-cmake/arduino.cmake" afterDir="false" />
@@ -107,17 +107,7 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.gate_controller_board">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Arduino_Core" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gate_controller_board" TARGET_NAME="Arduino_Core" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -130,6 +120,11 @@
     <configuration name="upload" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gate_controller_board" TARGET_NAME="upload" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -184,6 +179,8 @@
       <workItem from="1647673106301" duration="4000" />
       <workItem from="1647719121811" duration="2756000" />
       <workItem from="1647805525680" duration="5943000" />
+      <workItem from="1647891765746" duration="6186000" />
+      <workItem from="1647979390459" duration="655000" />
     </task>
     <servers />
   </component>

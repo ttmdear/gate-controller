@@ -10,8 +10,8 @@ unsigned long t = millis();
 class Receiver {
 private:
     int sample = 0;
-    int bufferSize = 150;
-    int buffer[150];
+    int bufferSize = 73;
+    int buffer[73];
     int p;
     bool message = false;
     unsigned long sampleAt;
@@ -42,33 +42,26 @@ void Receiver::loop() {
     sample = s;
     sampleAt = time;
 
-    if (delta < 350) {
+    int bits = 0;
+
+    if (delta > 350 && delta < 450) {
+        bits = 1;
+    } else if (delta > 1100 && delta < 1300) {
+        bits = 2;
+    } else {
         reset();
         return;
     }
 
-    int l = delta / 350;
 
-    Serial.print("delta -> ");
-    Serial.println(delta);
-
-    if (l == 1) {
-        buffer[++p] = s;
-    } else if (l == 2) {
-        buffer[++p] = s;
-        buffer[++p] = s;
-    } else if (l == 3) {
-        buffer[++p] = s;
-        buffer[++p] = s;
-        buffer[++p] = s;
-    } else if (l == 4) {
-        buffer[++p] = s;
-        buffer[++p] = s;
-        buffer[++p] = s;
-        buffer[++p] = s;
+    if (bits == 1) {
+        buffer[++p] = !s;
+    } else {
+        buffer[++p] = !s;
+        buffer[++p] = !s;
     }
 
-    if (p > 115) {
+    if (p >= 72) {
         message = true;
     }
 }
@@ -90,7 +83,7 @@ void Receiver::init() {
 }
 
 void Receiver::dump() {
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < bufferSize; i++) {
         if (buffer[i]) {
             Serial.print("1");
         } else {
@@ -117,37 +110,33 @@ void setup() {
 
     receiver.init();
 
-    // // initialize timer1
-    // noInterrupts(); // disable all interrupts
+    // initialize timer1
+    noInterrupts(); // disable all interrupts
 
-    // TCCR1A = 0;
-    // TCCR1B = 0;
+    TCCR1A = 0;
+    TCCR1B = 0;
 
-    // timer1_counter = 65533; // preload timer 65536-16MHz/256/2Hz
+    // 62500, jedna jednostka to 16us
+    timer1_counter = 62499; // preload timer 65536-16MHz/256/2Hz
 
-    // TCNT1 = timer1_counter; // preload timer
-    // TCCR1B |= (1 << CS12); // 256 prescaler
-    // TIMSK1 |= (1 << TOIE1); // enable timer overflow interrupt
-    // interrupts(); // enable all interrupts
+    TCNT1 = timer1_counter; // preload timer
+    TCCR1B |= (1 << CS12); // 256 prescaler
+    TIMSK1 |= (1 << TOIE1); // enable timer overflow interrupt
+    interrupts(); // enable all interrupts
 }
 
 void loop() {
     receiver.loop();
+
     if (receiver.isMessage()) {
         receiver.dump();
     }
 }
 
-// ISR(TIMER1_OVF_vect) {
-//     TCNT1 = timer1_counter; // preload timer
-//
-//     // unsigned long a = millis();
-//     // unsigned long d = a - t;
-//     // Serial.println(d, DEC);
-//     // t = a;
-//
-//     receiver.loop();
-// }
+ISR(TIMER1_OVF_vect) {
+    TCNT1 = timer1_counter; // preload timer
+    receiver.loop();
+}
 
 // // // Pins
 // // #define PIN_CLOSE 2
