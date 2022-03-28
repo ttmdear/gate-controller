@@ -40,11 +40,11 @@ Wire Wire Line
 Wire Wire Line
 	3100 1950 3550 1950
 $Comp
-L Device:CP C?
+L Device:CP MV_C1
 U 1 1 6241F25B
 P 3250 1400
-F 0 "C?" H 3368 1446 50  0000 L CNN
-F 1 "CP" H 3368 1355 50  0000 L CNN
+F 0 "MV_C1" H 3368 1446 50  0000 L CNN
+F 1 "470uF" H 3368 1355 50  0000 L CNN
 F 2 "" H 3288 1250 50  0001 C CNN
 F 3 "~" H 3250 1400 50  0001 C CNN
 	1    3250 1400
@@ -78,27 +78,16 @@ Text GLabel 5900 4800 3    50   Input ~ 0
 GND
 Text GLabel 3550 2400 2    50   Input ~ 0
 GND
-$Comp
-L Device:R R?
-U 1 1 6243205C
-P 7250 3350
-F 0 "R?" V 7043 3350 50  0000 C CNN
-F 1 "R" V 7134 3350 50  0000 C CNN
-F 2 "" V 7180 3350 50  0001 C CNN
-F 3 "~" H 7250 3350 50  0001 C CNN
-	1    7250 3350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7400 3350 7650 3350
 Text GLabel 7650 3350 2    50   Input ~ 0
 V5
 $Comp
-L Switch:SW_DPST_x2 SW?
+L Switch:SW_DPST_x2 AT_SW_R
 U 1 1 62437558
 P 7400 2950
-F 0 "SW?" H 7400 3185 50  0000 C CNN
-F 1 "SW_DPST_x2" H 7400 3094 50  0000 C CNN
+F 0 "AT_SW_R" H 7400 3185 50  0000 C CNN
+F 1 "1" H 7400 3094 50  0001 C CNN
 F 2 "" H 7400 2950 50  0001 C CNN
 F 3 "~" H 7400 2950 50  0001 C CNN
 	1    7400 2950
@@ -140,17 +129,17 @@ $EndComp
 Text GLabel 9000 1400 0    50   Input ~ 0
 GND
 Text GLabel 9000 1300 0    50   Input ~ 0
-PC?
+AT_D4
 Wire Wire Line
 	9000 1300 9300 1300
 Text GLabel 6650 3550 2    50   Input ~ 0
-AT_P2
+AT_RX
 Text GLabel 6650 3650 2    50   Input ~ 0
-AT_P3
+AT_TX
 Text GLabel 6650 3750 2    50   Input ~ 0
-AT_P4
+AT_D4
 Text GLabel 6650 3850 2    50   Input ~ 0
-AT_P5
+AT_D5
 Wire Wire Line
 	6500 3550 6650 3550
 Wire Wire Line
@@ -162,34 +151,18 @@ Wire Wire Line
 Wire Wire Line
 	6500 3950 6650 3950
 Text GLabel 6650 3950 2    50   Input ~ 0
-AT_P6
-Wire Wire Line
-	6000 1550 6000 1000
-Wire Wire Line
-	6000 1000 5900 1000
+AT_D6
 Wire Wire Line
 	5900 1550 5900 1000
-Connection ~ 5900 1000
 $Comp
-L Device:CP C?
+L Device:CP AT_C100U
 U 1 1 6245CF8B
 P 5350 1200
-F 0 "C?" H 5150 1150 50  0000 L CNN
-F 1 "100nF" H 5150 1050 50  0000 L CNN
+F 0 "AT_C100U" H 4850 1150 50  0000 L CNN
+F 1 "100uF" H 4950 1050 50  0000 L CNN
 F 2 "" H 5388 1050 50  0001 C CNN
 F 3 "~" H 5350 1200 50  0001 C CNN
 	1    5350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 6245DC54
-P 5650 1200
-F 0 "C?" H 5750 1100 50  0000 L CNN
-F 1 "10uF" H 5700 1000 50  0000 L CNN
-F 2 "" H 5688 1050 50  0001 C CNN
-F 3 "~" H 5650 1200 50  0001 C CNN
-	1    5650 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -198,19 +171,7 @@ Wire Wire Line
 	5350 1050 5350 1000
 Connection ~ 5350 1000
 Wire Wire Line
-	5350 1000 5650 1000
-Wire Wire Line
-	5650 1050 5650 1000
-Connection ~ 5650 1000
-Wire Wire Line
-	5650 1000 5900 1000
-Wire Wire Line
-	5650 1350 5650 1500
-Wire Wire Line
-	5650 1500 5350 1500
-Wire Wire Line
 	5350 1350 5350 1500
-Connection ~ 5350 1500
 Wire Wire Line
 	5350 1500 5150 1500
 Text GLabel 5150 1000 0    50   Input ~ 0
@@ -218,11 +179,11 @@ V5
 Text GLabel 5150 1500 0    50   Input ~ 0
 GND
 $Comp
-L Device:Crystal Y?
+L Device:Crystal AT_XTAL
 U 1 1 62469428
 P 7400 2250
-F 0 "Y?" V 7354 2381 50  0000 L CNN
-F 1 "Crystal" V 7445 2381 50  0000 L CNN
+F 0 "AT_XTAL" V 7354 2381 50  0000 L CNN
+F 1 "Crystal" V 7445 2381 50  0001 L CNN
 F 2 "" H 7400 2250 50  0001 C CNN
 F 3 "~" H 7400 2250 50  0001 C CNN
 	1    7400 2250
@@ -241,22 +202,22 @@ Wire Wire Line
 Wire Wire Line
 	7400 2550 7400 2400
 $Comp
-L Device:C C?
+L Device:C AT_C20P1
 U 1 1 6246C3F2
 P 7750 2550
-F 0 "C?" V 7498 2550 50  0000 C CNN
-F 1 "C" V 7589 2550 50  0000 C CNN
+F 0 "AT_C20P1" V 7498 2550 50  0000 C CNN
+F 1 "20pF" V 7589 2550 50  0000 C CNN
 F 2 "" H 7788 2400 50  0001 C CNN
 F 3 "~" H 7750 2550 50  0001 C CNN
 	1    7750 2550
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C AT_C20P2
 U 1 1 6246CD91
 P 7750 2050
-F 0 "C?" V 7498 2050 50  0000 C CNN
-F 1 "C" V 7589 2050 50  0000 C CNN
+F 0 "AT_C20P2" V 7498 2050 50  0000 C CNN
+F 1 "20pF" V 7589 2050 50  0000 C CNN
 F 2 "" H 7788 1900 50  0001 C CNN
 F 3 "~" H 7750 2050 50  0001 C CNN
 	1    7750 2050
@@ -306,7 +267,7 @@ $EndComp
 Text GLabel 9000 1850 0    50   Input ~ 0
 GND
 Text GLabel 9000 1750 0    50   Input ~ 0
-PC?
+AT_D5
 Wire Wire Line
 	9000 1750 9300 1750
 $Comp
@@ -334,7 +295,7 @@ $EndComp
 Text GLabel 9000 2300 0    50   Input ~ 0
 GND
 Text GLabel 9000 2200 0    50   Input ~ 0
-PC?
+AT_D6
 Wire Wire Line
 	9000 2200 9300 2200
 $Comp
@@ -409,25 +370,25 @@ Wire Wire Line
 Wire Wire Line
 	9300 900  9000 900 
 Text GLabel 9000 800  0    50   Input ~ 0
-PC?
+AT_RX
 Text GLabel 9000 900  0    50   Input ~ 0
-PC?
+AT_TX
 $Comp
-L Device:Q_NPN_BCE Q?
+L Device:Q_NPN_BCE SW_OP_Q
 U 1 1 624AAF7A
 P 8900 4200
-F 0 "Q?" H 9091 4246 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 9091 4155 50  0000 L CNN
+F 0 "SW_OP_Q" H 9091 4246 50  0000 L CNN
+F 1 "BC337" H 9091 4155 50  0000 L CNN
 F 2 "" H 9100 4300 50  0001 C CNN
 F 3 "~" H 8900 4200 50  0001 C CNN
 	1    8900 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R SW_OP_R
 U 1 1 624AF8C3
 P 8550 4200
-F 0 "R?" V 8343 4200 50  0000 C CNN
+F 0 "SW_OP_R" V 8343 4200 50  0000 C CNN
 F 1 "R" V 8434 4200 50  0000 C CNN
 F 2 "" V 8480 4200 50  0001 C CNN
 F 3 "~" H 8550 4200 50  0001 C CNN
@@ -435,13 +396,13 @@ F 3 "~" H 8550 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 8400 4200 0    50   Input ~ 0
-PC?
+AT_D11
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 SW_OP_SCREW
 U 1 1 624B041A
 P 9500 3600
-F 0 "J?" H 9580 3592 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9580 3501 50  0000 L CNN
+F 0 "SW_OP_SCREW" H 9580 3592 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9580 3501 50  0001 L CNN
 F 2 "" H 9500 3600 50  0001 C CNN
 F 3 "~" H 9500 3600 50  0001 C CNN
 	1    9500 3600
@@ -460,35 +421,24 @@ Wire Wire Line
 Text GLabel 9000 3600 0    50   Input ~ 0
 V12
 $Comp
-L Device:Q_NPN_BCE Q?
+L Device:Q_NPN_BCE SW_CL_Q
 U 1 1 624C4F6D
 P 8900 5600
-F 0 "Q?" H 9091 5646 50  0000 L CNN
-F 1 "Q_NPN_BCE" H 9091 5555 50  0000 L CNN
+F 0 "SW_CL_Q" H 9091 5646 50  0000 L CNN
+F 1 "BC337" H 9091 5555 50  0000 L CNN
 F 2 "" H 9100 5700 50  0001 C CNN
 F 3 "~" H 8900 5600 50  0001 C CNN
 	1    8900 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 624C4F73
-P 8550 5600
-F 0 "R?" V 8343 5600 50  0000 C CNN
-F 1 "R" V 8434 5600 50  0000 C CNN
-F 2 "" V 8480 5600 50  0001 C CNN
-F 3 "~" H 8550 5600 50  0001 C CNN
-	1    8550 5600
-	0    1    1    0   
-$EndComp
 Text GLabel 8400 5600 0    50   Input ~ 0
-PC?
+AT_D12
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 SW_CL_SCREW
 U 1 1 624C4F7A
 P 9500 5000
-F 0 "J?" H 9580 4992 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 9580 4901 50  0000 L CNN
+F 0 "SW_CL_SCREW" H 9580 4992 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9580 4901 50  0001 L CNN
 F 2 "" H 9500 5000 50  0001 C CNN
 F 3 "~" H 9500 5000 50  0001 C CNN
 	1    9500 5000
@@ -524,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 900  11400 900 
 Text GLabel 11400 900  0    50   Input ~ 0
-PC?
+AT_D12
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 624D4E6F
@@ -543,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 1450 11400 1450
 Text GLabel 11400 1450 0    50   Input ~ 0
-PC?
+AT_D13
 $Comp
 L Own:RF_RX_433MHz U?
 U 1 1 624D82E7
@@ -624,4 +574,50 @@ Connection ~ 2800 1600
 Wire Wire Line
 	3550 2400 2800 2400
 Connection ~ 2800 2400
+$Comp
+L Device:R AT_R1
+U 1 1 6243205C
+P 7250 3350
+F 0 "AT_R1" V 7043 3350 50  0000 C CNN
+F 1 "10k" V 7134 3350 50  0001 C CNN
+F 2 "" V 7180 3350 50  0001 C CNN
+F 3 "~" H 7250 3350 50  0001 C CNN
+	1    7250 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 1000 5900 1000
+Wire Wire Line
+	6000 1550 6000 800 
+Wire Wire Line
+	6000 800  5150 800 
+Text GLabel 5150 800  0    50   Input ~ 0
+V5
+$Comp
+L Device:R SW_CL_Q
+U 1 1 624C4F73
+P 8550 5600
+F 0 "SW_CL_Q" V 8343 5600 50  0000 C CNN
+F 1 "R" V 8434 5600 50  0000 C CNN
+F 2 "" V 8480 5600 50  0001 C CNN
+F 3 "~" H 8550 5600 50  0001 C CNN
+	1    8550 5600
+	0    1    1    0   
+$EndComp
+Text GLabel 6650 4050 2    50   Input ~ 0
+AT_D11
+Text GLabel 6650 4150 2    50   Input ~ 0
+AT_D12
+Wire Wire Line
+	6500 4050 6650 4050
+Wire Wire Line
+	6500 4150 6650 4150
+Text GLabel 6650 4250 2    50   Input ~ 0
+AT_D13
+Wire Wire Line
+	6500 4250 6650 4250
+Text GLabel 6650 1850 2    50   Input ~ 0
+AT_D14
+Wire Wire Line
+	6650 1850 6500 1850
 $EndSCHEMATC
