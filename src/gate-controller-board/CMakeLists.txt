@@ -17,9 +17,9 @@ include(arduino-cmake/arduino.cmake)
 
 add_executable(gate_controller_board
     src/main.cpp
-    lib/VirtualWire/VirtualWire.cpp
+    src/Receiver.cpp
 )
 
 target_link_libraries(gate_controller_board Arduino_Core)
 
-target_include_directories(gate_controller_board PUBLIC ./include ./lib/VirtualWire)
+target_include_directories(gate_controller_board PUBLIC ./include)

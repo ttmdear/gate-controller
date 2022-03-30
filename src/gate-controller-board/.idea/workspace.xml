@@ -14,8 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4fd49d8-3a0f-4c0c-af6c-72ba01f1eca1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../kicad/gate-controller" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/Receiver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Receiver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/board/board-cache.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board-cache.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.sch-bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.sch-bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/gate-controller-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/gate-controller-v1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arduino-cmake" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arduino-cmake/arduino.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-cmake/arduino.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o" afterDir="false" />
@@ -42,13 +48,25 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libArduino_Core.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libArduino_Core.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/screenlog.0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/screenlog.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/RFR.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RFR.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +126,11 @@
   </component>
   <component name="RunManager" selected="CMake Application.gate_controller_board">
     <configuration name="Arduino_Core" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gate_controller_board" TARGET_NAME="Arduino_Core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -181,6 +204,8 @@
       <workItem from="1647805525680" duration="5943000" />
       <workItem from="1647891765746" duration="6186000" />
       <workItem from="1647979390459" duration="655000" />
+      <workItem from="1648584377834" duration="2587000" />
+      <workItem from="1648666920093" duration="7924000" />
     </task>
     <servers />
   </component>

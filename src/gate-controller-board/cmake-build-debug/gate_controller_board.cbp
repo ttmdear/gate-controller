@@ -95,7 +95,6 @@
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
 					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./include"/>
-					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./lib/VirtualWire"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -121,7 +120,6 @@
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
 					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./include"/>
-					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./lib/VirtualWire"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -148,10 +146,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/lib/VirtualWire/VirtualWire.cpp">
-			<Option target="gate_controller_board"/>
-		</Unit>
-		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/lib/VirtualWire/VirtualWire.h">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp">
 			<Option target="gate_controller_board"/>
 		</Unit>
 		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp">

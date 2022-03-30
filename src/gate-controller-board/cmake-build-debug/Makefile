@@ -155,30 +155,6 @@ gate_controller_board/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gate_controller_board.dir/build.make CMakeFiles/gate_controller_board.dir/build
 .PHONY : gate_controller_board/fast
 
-lib/VirtualWire/VirtualWire.o: lib/VirtualWire/VirtualWire.cpp.o
-.PHONY : lib/VirtualWire/VirtualWire.o
-
-# target to build an object file
-lib/VirtualWire/VirtualWire.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gate_controller_board.dir/build.make CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o
-.PHONY : lib/VirtualWire/VirtualWire.cpp.o
-
-lib/VirtualWire/VirtualWire.i: lib/VirtualWire/VirtualWire.cpp.i
-.PHONY : lib/VirtualWire/VirtualWire.i
-
-# target to preprocess a source file
-lib/VirtualWire/VirtualWire.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gate_controller_board.dir/build.make CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.i
-.PHONY : lib/VirtualWire/VirtualWire.cpp.i
-
-lib/VirtualWire/VirtualWire.s: lib/VirtualWire/VirtualWire.cpp.s
-.PHONY : lib/VirtualWire/VirtualWire.s
-
-# target to generate assembly for a file
-lib/VirtualWire/VirtualWire.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gate_controller_board.dir/build.make CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.s
-.PHONY : lib/VirtualWire/VirtualWire.cpp.s
-
 opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.o: opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o
 .PHONY : opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.o
 
@@ -763,6 +739,30 @@ opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arduino_Core.dir/build.make CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
 .PHONY : opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
 
+src/Receiver.o: src/Receiver.cpp.o
+.PHONY : src/Receiver.o
+
+# target to build an object file
+src/Receiver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gate_controller_board.dir/build.make CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o
+.PHONY : src/Receiver.cpp.o
+
+src/Receiver.i: src/Receiver.cpp.i
+.PHONY : src/Receiver.i
+
+# target to preprocess a source file
+src/Receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gate_controller_board.dir/build.make CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i
+.PHONY : src/Receiver.cpp.i
+
+src/Receiver.s: src/Receiver.cpp.s
+.PHONY : src/Receiver.s
+
+# target to generate assembly for a file
+src/Receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gate_controller_board.dir/build.make CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s
+.PHONY : src/Receiver.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -798,9 +798,6 @@ help:
 	@echo "... upload"
 	@echo "... Arduino_Core"
 	@echo "... gate_controller_board"
-	@echo "... lib/VirtualWire/VirtualWire.o"
-	@echo "... lib/VirtualWire/VirtualWire.i"
-	@echo "... lib/VirtualWire/VirtualWire.s"
 	@echo "... opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.o"
 	@echo "... opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.i"
 	@echo "... opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.s"
@@ -874,6 +871,9 @@ help:
 	@echo "... opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.o"
 	@echo "... opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.i"
 	@echo "... opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.s"
+	@echo "... src/Receiver.o"
+	@echo "... src/Receiver.i"
+	@echo "... src/Receiver.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

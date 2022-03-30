@@ -6,8 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../include/Receiver.h
+
 /home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp
 Arduino.h
+-
+Receiver.h
 -
 
 /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Arduino.h

@@ -79,29 +79,29 @@ CMakeFiles/gate_controller_board.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gate_controller_board.dir/src/main.cpp.s"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp" -o CMakeFiles/gate_controller_board.dir/src/main.cpp.s
 
-CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o: CMakeFiles/gate_controller_board.dir/flags.make
-CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o: ../lib/VirtualWire/VirtualWire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o -c "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/lib/VirtualWire/VirtualWire.cpp"
+CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o: CMakeFiles/gate_controller_board.dir/flags.make
+CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o: ../src/Receiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o"
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o -c "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp"
 
-CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.i"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/lib/VirtualWire/VirtualWire.cpp" > CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.i
+CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i"
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp" > CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i
 
-CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.s"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/lib/VirtualWire/VirtualWire.cpp" -o CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.s
+CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s"
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp" -o CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s
 
 # Object files for target gate_controller_board
 gate_controller_board_OBJECTS = \
 "CMakeFiles/gate_controller_board.dir/src/main.cpp.o" \
-"CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o"
+"CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o"
 
 # External object files for target gate_controller_board
 gate_controller_board_EXTERNAL_OBJECTS =
 
 gate_controller_board: CMakeFiles/gate_controller_board.dir/src/main.cpp.o
-gate_controller_board: CMakeFiles/gate_controller_board.dir/lib/VirtualWire/VirtualWire.cpp.o
+gate_controller_board: CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o
 gate_controller_board: CMakeFiles/gate_controller_board.dir/build.make
 gate_controller_board: libArduino_Core.a
 gate_controller_board: CMakeFiles/gate_controller_board.dir/link.txt
