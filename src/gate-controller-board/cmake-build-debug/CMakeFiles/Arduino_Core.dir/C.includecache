@@ -114,19 +114,11 @@ avr/pgmspace.h
 
 /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/binary.h
 
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c
-
 /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c
 wiring_private.h
 /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_private.h
 
 /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c
-wiring_private.h
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_private.h
-pins_arduino.h
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/pins_arduino.h
-
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c
 wiring_private.h
 /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_private.h
 pins_arduino.h
@@ -143,16 +135,6 @@ stdarg.h
 -
 Arduino.h
 /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Arduino.h
-
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c
-wiring_private.h
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_private.h
-pins_arduino.h
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/pins_arduino.h
-
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c
-wiring_private.h
-/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_private.h
 
 /opt/arduino-1.8.16/hardware/arduino/avr/variants/standard/pins_arduino.h
 avr/pgmspace.h

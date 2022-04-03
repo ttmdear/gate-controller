@@ -76,41 +76,49 @@ void setup() {
     TCCR1A = 0;
     TCCR1B = 0;
 
-    // 62500, jedna jednostka to 16us
-    timer1_counter = 62499; // preload timer 65536-16MHz/256/2Hz
+    // 65536, jedna jednostka to 16us
+    // 65536, jedna jednostka to 4us to 0.262144
+    timer1_counter = 65532; // preload timer 65536-16MHz/256/2Hz
 
     TCNT1 = timer1_counter; // preload timer
-    TCCR1B |= (1 << CS12); // 256 prescaler
+    // TCCR1B |= (1 << CS12); // 256 prescaler
+    TCCR1B |= (1 << CS11); // 64 prescaler
+    TCCR1B |= (1 << CS10); // 64 prescaler
     TIMSK1 |= (1 << TOIE1); // enable timer overflow interrupt
     interrupts(); // enable all interrupts
 }
 
+unsigned long m1 = micros();
+unsigned long db = 0;
+unsigned long d = 0;
+
 void loop() {
     if (receiver.isMessage()) {
         receiver.dump();
+        // Serial.println(receiver.readMessage());
     }
 
-    Serial.print("PIN_OPEN_LIMIT ");
-    Serial.println(digitalRead(PIN_OPEN_LIMIT));
+    // Serial.print("PIN_OPEN_LIMIT ");
+    // Serial.println(digitalRead(PIN_OPEN_LIMIT));
 
-    Serial.print("PIN_OPEN ");
-    Serial.println(digitalRead(PIN_OPEN));
+    // Serial.print("PIN_OPEN ");
+    // Serial.println(digitalRead(PIN_OPEN));
 
-    Serial.print("PIN_CLOSE_LIMIT ");
-    Serial.println(digitalRead(PIN_CLOSE_LIMIT));
+    // Serial.print("PIN_CLOSE_LIMIT ");
+    // Serial.println(digitalRead(PIN_CLOSE_LIMIT));
 
-    Serial.print("PIN_CLOSE ");
-    Serial.println(digitalRead(PIN_CLOSE));
+    // Serial.print("PIN_CLOSE ");
+    // Serial.println(digitalRead(PIN_CLOSE));
 
-    Serial.println();
+    // Serial.println();
 
-    if (digitalRead(PIN_OPEN_LIMIT) == HIGH && digitalRead(PIN_OPEN) == LOW) {
-        stat = STATE_OPEN;
-        Serial.println("set stat open");
-    } else if (digitalRead(PIN_CLOSE_LIMIT) == HIGH && digitalRead(PIN_CLOSE) == LOW) {
-        stat = STATE_CLOSE;
-        Serial.println("set stat close");
-    }
+    // if (digitalRead(PIN_OPEN_LIMIT) == HIGH && digitalRead(PIN_OPEN) == LOW) {
+    //     stat = STATE_OPEN;
+    //     Serial.println("set stat open");
+    // } else if (digitalRead(PIN_CLOSE_LIMIT) == HIGH && digitalRead(PIN_CLOSE) == LOW) {
+    //     stat = STATE_CLOSE;
+    //     Serial.println("set stat close");
+    // }
 
     // if (isl(PIN_STOP)) {
     //     stat = STATE_STOP;
@@ -131,11 +139,15 @@ void loop() {
     //     prev = stat;
     // }
 
-    delay(5000);
+    // if (db != d) {
+    //     Serial.println(d);
+    //     db = d;
+    // }
 }
-
 
 ISR(TIMER1_OVF_vect) {
     TCNT1 = timer1_counter; // preload timer
+    // d = micros() - m1;
+    // m1 = micros();
     receiver.loop();
 }

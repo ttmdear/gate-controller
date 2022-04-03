@@ -1,12 +1,16 @@
 #include <Arduino.h>
-#include "Receiver.h"
+#include <Receiver.h>
 
 Receiver::Receiver(int pin) {
     this->pin = pin;
 }
 
+void Receiver::init() {
+    reset();
+}
+
 void Receiver::loop() {
-    if (message) return;
+    if (message != 'n') return;
 
     int s = digitalRead(pin);
 
@@ -31,7 +35,6 @@ void Receiver::loop() {
         return;
     }
 
-
     if (bits == 1) {
         buffer[++p] = !s;
     } else {
@@ -40,24 +43,21 @@ void Receiver::loop() {
     }
 
     if (p >= 72) {
-        message = true;
+        message = MESSAGE_B;
     }
 }
 
 void Receiver::reset() {
     sample = digitalRead(pin);
     sampleAt = micros();
-    message = false;
-
+    message = MESSAGE_NONE;
     p = -1;
+    step = 0;
+    bf = 0;
 
     for (int i = 0; i < bufferSize; i++) {
         buffer[i] = 0;
     }
-}
-
-void Receiver::init() {
-    reset();
 }
 
 void Receiver::dump() {
@@ -74,6 +74,11 @@ void Receiver::dump() {
 }
 
 bool Receiver::isMessage() {
-    return message;
+    return message != MESSAGE_NONE;
 }
 
+char Receiver::readMessage() {
+    char tmp = message;
+    reset();
+    return tmp;
+}
