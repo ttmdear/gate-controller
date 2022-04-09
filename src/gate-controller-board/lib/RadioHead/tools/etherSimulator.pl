@@ -117,7 +117,7 @@ sub probabilityOfSuccessfulDelivery
     return 1.0;
 }
 
-# Return true if the message is simulted to have been received successfully
+# Return true if the action is simulted to have been received successfully
 # taking into account the probability of sucessful delivery
 sub willDeliverFromTo
 {
@@ -135,10 +135,10 @@ sub deliverMessages
     while (($key, $value) = each(%clients))
     {
 	next unless defined $$value{'packet'}; # No packet waiting for delivery
-	# Find how long since the message was transmitted and see it its time to 
+	# Find how long since the action was transmitted and see it its time to
 	# deliver it to the client.
-	# We are waiting here for the transmission time of the message to elapse
-	# given the message length and the bits per second
+	# We are waiting here for the transmission time of the action to elapse
+	# given the action length and the bits per second
 	my $elapsed = Time::HiRes::tv_interval([$$value{'packetreceived'}], [Time::HiRes::gettimeofday]);
 	if ($elapsed > length($$value{'packet'}) * 8 / $bps)
 	{

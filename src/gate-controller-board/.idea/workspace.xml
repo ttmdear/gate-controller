@@ -14,13 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4fd49d8-3a0f-4c0c-af6c-72ba01f1eca1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../kicad/board/board-cache.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board-cache.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.kicad_pcb" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.kicad_pcb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.sch-bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.sch-bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../kicad/gate-controller-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/gate-controller-v1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arduino-cmake" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arduino-cmake/arduino.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-cmake/arduino.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/ASM.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.o" afterDir="false" />
@@ -54,6 +55,9 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libArduino_Core.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libArduino_Core.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/screenlog.0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/screenlog.0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/Receiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Receiver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/RadioHead/tools/createGPX.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RadioHead/tools/createGPX.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/RadioHead/tools/etherSimulator.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RadioHead/tools/etherSimulator.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/VirtualWire/README" beforeDir="false" afterPath="$PROJECT_DIR$/lib/VirtualWire/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Receiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Receiver.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
@@ -118,11 +122,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gate_controller_board" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gate_controller_board" TARGET_NAME="gate_controller_board" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gate_controller_board" RUN_TARGET_NAME="gate_controller_board">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -131,6 +130,11 @@
     <configuration name="upload" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gate_controller_board" TARGET_NAME="upload" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -194,6 +198,9 @@
       <workItem from="1648922117392" duration="11701000" />
       <workItem from="1649012593971" duration="1364000" />
       <workItem from="1649019713473" duration="19000" />
+      <workItem from="1649094475385" duration="288000" />
+      <workItem from="1649094770323" duration="7559000" />
+      <workItem from="1649356287392" duration="4000" />
     </task>
     <servers />
   </component>

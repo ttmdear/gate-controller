@@ -10,7 +10,7 @@ void Receiver::init() {
 }
 
 void Receiver::loop() {
-    if (message != 'n') return;
+    if (action != 'n') return;
 
     int s = digitalRead(pin);
 
@@ -42,18 +42,46 @@ void Receiver::loop() {
         buffer[++p] = !s;
     }
 
+    if (ac && a[p] != buffer[p]) {
+        ac = false;
+    }
+
+    if (bc && b[p] != buffer[p]) {
+        bc = false;
+    }
+
+    if (cc && c[p] != buffer[p]) {
+        cc = false;
+    }
+
+    if (dc && d[p] != buffer[p]) {
+        dc = false;
+    }
+
+    if (!ac && !bc && !cc && !dc) {
+        reset();
+        return;
+    }
+
     if (p >= 72) {
-        message = MESSAGE_B;
+        if (ac) action = ACTION_A;
+        else if (bc) action = ACTION_B;
+        else if (cc) action = ACTION_C;
+        else if (dc) action = ACTION_D;
     }
 }
 
 void Receiver::reset() {
     sample = digitalRead(pin);
     sampleAt = micros();
-    message = MESSAGE_NONE;
+
     p = -1;
-    step = 0;
-    bf = 0;
+    action = ACTION_NONE;
+
+    ac = true;
+    bc = true;
+    cc = true;
+    dc = true;
 
     for (int i = 0; i < bufferSize; i++) {
         buffer[i] = 0;
@@ -73,12 +101,39 @@ void Receiver::dump() {
     reset();
 }
 
-bool Receiver::isMessage() {
-    return message != MESSAGE_NONE;
+bool Receiver::isAction() {
+    return action != ACTION_NONE;
+}
+
+bool Receiver::isOpen() {
+    if (action == ACTION_A) {
+        reset();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool Receiver::isClose() {
+    if (action == ACTION_B) {
+        reset();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+bool Receiver::isStop() {
+    if (action == ACTION_C || action == ACTION_D) {
+        reset();
+        return true;
+    } else {
+        return false;
+    }
 }
 
 char Receiver::readMessage() {
-    char tmp = message;
+    char tmp = action;
     reset();
     return tmp;
 }

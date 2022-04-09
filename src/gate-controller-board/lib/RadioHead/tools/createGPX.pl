@@ -87,10 +87,10 @@ sub usage
 #
 # Using the sequence number and the timpstamp of the client data, the messages
 # are classified in 3 groups:
-# (1) full contact, i.e. message and its reply was received on both ends
-# (2) received only, i.e. message was received by server, but reply to client 
+# (1) full contact, i.e. action and its reply was received on both ends
+# (2) received only, i.e. action was received by server, but reply to client
 #     got lost
-# (3) no contact, i.e. message was sent, but not received by server 
+# (3) no contact, i.e. action was sent, but not received by server
 #
 ###################################################################################
 sub classifyData
@@ -135,7 +135,7 @@ sub classifyData
 
          if ($reply eq "NULL")
          {
-          # client message received, but server message lost
+          # client action received, but server action lost
           #print "RECEIVED ONLY; $item => $clientMessages{$item}\n\n\n";
 
           my $wpt = {
@@ -148,7 +148,7 @@ sub classifyData
          }
          else
          {
-          # client message received by server, client received acknowledge message sent by server 
+          # client action received by server, client received acknowledge action sent by server
           # print "ACKNOWLEDGED; $item => $clientMessages{$item}\n\n\n";
 
           # sanity check: the reply string should be identical
@@ -167,7 +167,7 @@ sub classifyData
       }
       else
       {
-        # client message was sent but not received
+        # client action was sent but not received
         # print "SENTONLY; $item => $clientMessages{$item}\n\n\n";
          if ($reply eq "NULL")
          {
@@ -184,13 +184,13 @@ sub classifyData
             my $seqNr;
             my $timestamp;
             ($seqNr,$timestamp) = split (/~/, $item);
-            print "WARNING: There should by no reply to message $seqNr @ $timestamp...\n";
+            print "WARNING: There should by no reply to action $seqNr @ $timestamp...\n";
          }
       }
    }
 
 
-   # sanity check: Verify that each of the server message
+   # sanity check: Verify that each of the server action
    # was actually sent by the client
    foreach $item (sort keys %serverMessages)
    {
