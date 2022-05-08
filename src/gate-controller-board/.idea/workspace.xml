@@ -14,10 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4fd49d8-3a0f-4c0c-af6c-72ba01f1eca1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../kicad/board/board-cache.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board-cache.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.kicad_pcb" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.kicad_pcb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.sch" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.sch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../kicad/board/board.sch-bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/board/board.sch-bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../kicad/gate-controller-v1" beforeDir="false" afterPath="$PROJECT_DIR$/../../kicad/gate-controller-v1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arduino-cmake" beforeDir="false" afterPath="$PROJECT_DIR$/arduino-cmake" afterDir="false" />
@@ -46,7 +42,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -54,11 +49,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gate_controller_board.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libArduino_Core.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libArduino_Core.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/screenlog.0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/screenlog.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Receiver.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Receiver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/RadioHead/tools/createGPX.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RadioHead/tools/createGPX.pl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/RadioHead/tools/etherSimulator.pl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RadioHead/tools/etherSimulator.pl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/VirtualWire/README" beforeDir="false" afterPath="$PROJECT_DIR$/lib/VirtualWire/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Receiver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Receiver.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +94,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -201,6 +191,8 @@
       <workItem from="1649094475385" duration="288000" />
       <workItem from="1649094770323" duration="7559000" />
       <workItem from="1649356287392" duration="4000" />
+      <workItem from="1652038227153" duration="431000" />
+      <workItem from="1652038665045" duration="2468000" />
     </task>
     <servers />
   </component>
