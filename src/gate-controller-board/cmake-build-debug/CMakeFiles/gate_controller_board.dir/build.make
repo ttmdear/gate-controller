@@ -53,10 +53,10 @@ RM = /opt/CLion-2021.2.2/clion-2021.2.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board"
+CMAKE_SOURCE_DIR = "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gate_controller_board.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/gate_controller_board.dir/flags.make
 
 CMakeFiles/gate_controller_board.dir/src/main.cpp.o: CMakeFiles/gate_controller_board.dir/flags.make
 CMakeFiles/gate_controller_board.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gate_controller_board.dir/src/main.cpp.o"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gate_controller_board.dir/src/main.cpp.o -c "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gate_controller_board.dir/src/main.cpp.o"
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gate_controller_board.dir/src/main.cpp.o -c "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/main.cpp"
 
 CMakeFiles/gate_controller_board.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gate_controller_board.dir/src/main.cpp.i"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp" > CMakeFiles/gate_controller_board.dir/src/main.cpp.i
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/main.cpp" > CMakeFiles/gate_controller_board.dir/src/main.cpp.i
 
 CMakeFiles/gate_controller_board.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gate_controller_board.dir/src/main.cpp.s"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp" -o CMakeFiles/gate_controller_board.dir/src/main.cpp.s
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/main.cpp" -o CMakeFiles/gate_controller_board.dir/src/main.cpp.s
 
 CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o: CMakeFiles/gate_controller_board.dir/flags.make
 CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o: ../src/Receiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o -c "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o"
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o -c "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/Receiver.cpp"
 
 CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp" > CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/Receiver.cpp" > CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.i
 
 CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s"
-	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp" -o CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s
+	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/Receiver.cpp" -o CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.s
 
 # Object files for target gate_controller_board
 gate_controller_board_OBJECTS = \
@@ -105,7 +105,7 @@ gate_controller_board: CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o
 gate_controller_board: CMakeFiles/gate_controller_board.dir/build.make
 gate_controller_board: libArduino_Core.a
 gate_controller_board: CMakeFiles/gate_controller_board.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gate_controller_board"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gate_controller_board"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gate_controller_board.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/gate_controller_board.dir/clean:
 .PHONY : CMakeFiles/gate_controller_board.dir/clean
 
 CMakeFiles/gate_controller_board.dir/depend:
-	cd "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/gate_controller_board.dir/depend
 

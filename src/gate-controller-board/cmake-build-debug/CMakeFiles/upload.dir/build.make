@@ -53,10 +53,10 @@ RM = /opt/CLion-2021.2.2/clion-2021.2.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board"
+CMAKE_SOURCE_DIR = "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"
 
 # Utility rule file for upload.
 
@@ -84,6 +84,6 @@ CMakeFiles/upload.dir/clean:
 .PHONY : CMakeFiles/upload.dir/clean
 
 CMakeFiles/upload.dir/depend:
-	cd "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/upload.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/upload.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/upload.dir/depend
 

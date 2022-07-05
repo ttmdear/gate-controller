@@ -8,7 +8,13 @@
 
 ../include/Receiver.h
 
-/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp
+/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/Receiver.cpp
+Arduino.h
+-
+Receiver.h
+-
+
+/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/main.cpp
 Arduino.h
 -
 Receiver.h

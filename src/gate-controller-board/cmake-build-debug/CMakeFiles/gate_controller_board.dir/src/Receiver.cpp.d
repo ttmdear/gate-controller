@@ -1,5 +1,5 @@
 CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o: \
- /home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/src/Receiver.cpp \
+ /home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/src/Receiver.cpp \
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Arduino.h \
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/binary.h \
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WCharacter.h \
@@ -11,4 +11,4 @@ CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o: \
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBAPI.h \
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Arduino.h \
  /opt/arduino-1.8.16/hardware/arduino/avr/variants/standard/pins_arduino.h \
- /home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/./include/Receiver.h
+ /home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/./include/Receiver.h

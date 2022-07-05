@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\arduino-cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="upload">
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Arduino_Core">
-				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option output="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Arduino_Core/fast">
-				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option output="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/libArduino_Core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -79,22 +79,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arduino_Core/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gate_controller_board">
-				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option output="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./include"/>
+					<Add directory="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/./include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -104,22 +104,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gate_controller_board/fast">
-				<Option output="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option output="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/gate_controller_board" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino"/>
 					<Add directory="/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard"/>
-					<Add directory="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./include"/>
+					<Add directory="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/./include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -129,27 +129,27 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 gate_controller_board/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"/>
+				<Option working_dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ do\ bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/workstati/projects/20083\ -\ Sterownik\ Do\ Bramy/src/gate-controller-board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/Receiver.cpp">
 			<Option target="gate_controller_board"/>
 		</Unit>
-		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/main.cpp">
 			<Option target="gate_controller_board"/>
 		</Unit>
 		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp">
@@ -251,10 +251,10 @@
 		<Unit filename="/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c">
 			<Option target="Arduino_Core"/>
 		</Unit>
-		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/CMakeLists.txt">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/arduino-cmake/arduino.cmake">
+		<Unit filename="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/arduino-cmake/arduino.cmake">
 			<Option virtualFolder="CMake Files\arduino-cmake\"/>
 		</Unit>
 	</Project>

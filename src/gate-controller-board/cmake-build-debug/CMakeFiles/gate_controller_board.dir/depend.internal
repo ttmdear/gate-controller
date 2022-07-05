@@ -3,7 +3,7 @@
 
 CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o
  ../include/Receiver.h
- /home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp
+ /home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/Receiver.cpp
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Arduino.h
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.h
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.h
@@ -18,7 +18,7 @@ CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o
  /opt/arduino-1.8.16/hardware/arduino/avr/variants/standard/pins_arduino.h
 CMakeFiles/gate_controller_board.dir/src/main.cpp.o
  ../include/Receiver.h
- /home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp
+ /home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/main.cpp
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Arduino.h
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.h
  /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.h

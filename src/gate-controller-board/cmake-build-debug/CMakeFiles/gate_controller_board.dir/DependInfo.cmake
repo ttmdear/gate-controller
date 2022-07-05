@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/Receiver.cpp" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o"
-  "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/src/main.cpp" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.o"
+  "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/Receiver.cpp" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/Receiver.cpp.o"
+  "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/src/main.cpp" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,7 +26,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/Arduino_Core.dir/DependInfo.cmake"
+  "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/Arduino_Core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

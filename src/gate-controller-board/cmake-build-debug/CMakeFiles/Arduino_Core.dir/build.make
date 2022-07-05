@@ -53,10 +53,10 @@ RM = /opt/CLion-2021.2.2/clion-2021.2.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board"
+CMAKE_SOURCE_DIR = "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Arduino_Core.dir/depend.make
@@ -68,7 +68,7 @@ include CMakeFiles/Arduino_Core.dir/flags.make
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.S.i: cmake_force
@@ -81,7 +81,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WInterrupts.c.i: cmake_force
@@ -94,7 +94,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/hooks.c.i: cmake_force
@@ -107,7 +107,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_shift.c.i: cmake_force
@@ -120,7 +120,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_digital.c.i: cmake_force
@@ -133,7 +133,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_analog.c.i: cmake_force
@@ -146,7 +146,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring.c.i: cmake_force
@@ -159,7 +159,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/wiring_pulse.c.i: cmake_force
@@ -172,7 +172,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/CDC.cpp.i: cmake_force
@@ -185,7 +185,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp.i: cmake_force
@@ -198,7 +198,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp.i: cmake_force
@@ -211,7 +211,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp.i: cmake_force
@@ -224,7 +224,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp.i: cmake_force
@@ -237,7 +237,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp.i: cmake_force
@@ -250,7 +250,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/IPAddress.cpp.i: cmake_force
@@ -263,7 +263,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp.i: cmake_force
@@ -276,7 +276,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Print.cpp.i: cmake_force
@@ -289,7 +289,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Stream.cpp.i: cmake_force
@@ -302,7 +302,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/Tone.cpp.i: cmake_force
@@ -315,7 +315,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/USBCore.cpp.i: cmake_force
@@ -328,7 +328,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WMath.cpp.i: cmake_force
@@ -341,7 +341,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/WString.cpp.i: cmake_force
@@ -354,7 +354,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/abi.cpp.i: cmake_force
@@ -367,7 +367,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/main.cpp.i: cmake_force
@@ -380,7 +380,7 @@ CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduin
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp.o: CMakeFiles/Arduino_Core.dir/flags.make
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp.o: /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp.o"
 	/opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp.o -c /opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp
 
 CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp.i: cmake_force
@@ -449,7 +449,7 @@ libArduino_Core.a: CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/ardui
 libArduino_Core.a: CMakeFiles/Arduino_Core.dir/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino/new.cpp.o
 libArduino_Core.a: CMakeFiles/Arduino_Core.dir/build.make
 libArduino_Core.a: CMakeFiles/Arduino_Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library libArduino_Core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library libArduino_Core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Arduino_Core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Arduino_Core.dir/link.txt --verbose=$(VERBOSE)
 
@@ -462,6 +462,6 @@ CMakeFiles/Arduino_Core.dir/clean:
 .PHONY : CMakeFiles/Arduino_Core.dir/clean
 
 CMakeFiles/Arduino_Core.dir/depend:
-	cd "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/Arduino_Core.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug" "/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/Arduino_Core.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Arduino_Core.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /opt/arduino-1.8.16/hardware/tools/avr/bin/avr-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino -I/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard -I"/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/./include"
+CXX_INCLUDES = -I/opt/arduino-1.8.16/hardware/arduino/avr/cores/arduino -I/opt/arduino-1.8.16/hardware/arduino/avr/variants/standard -I"/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/./include"
 
 CXX_FLAGS = -c -g -Os -Wall -Wextra -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -Wno-error=narrowing -MMD -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10809 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -g -std=gnu++11
 

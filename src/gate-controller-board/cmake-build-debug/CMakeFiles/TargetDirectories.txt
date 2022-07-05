@@ -1,5 +1,5 @@
-/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/upload.dir
-/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/Arduino_Core.dir
-/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir
-/home/workstati/projects/20083 - Sterownik do bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/upload.dir
+/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/Arduino_Core.dir
+/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/gate_controller_board.dir
+/home/workstati/projects/20083 - Sterownik Do Bramy/src/gate-controller-board/cmake-build-debug/CMakeFiles/edit_cache.dir
